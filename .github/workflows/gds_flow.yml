@@ -1,0 +1,28 @@
+name: RTL to GDS Flow
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Cho phép nhấn nút bấm chạy thủ công từ giao diện Actions
+
+jobs:
+  build-gds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run OpenLane Flow
+        uses: efabless/openlane-action@v1
+        with:
+          design_dir: './openlane'
+          config_file: 'config.json'
+
+      - name: Upload GDSII and Layout Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: gds-output
+          path: |
+            openlane/runs/*/results/final/gds/*.gds
+            openlane/runs/*/reports/
