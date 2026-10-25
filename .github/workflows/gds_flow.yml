@@ -17,9 +17,8 @@ jobs:
         run: |
           docker run --rm \
             -v $(pwd):/openlane/designs/my_design \
-            -e PDK_ROOT=/openlane/pdks \
-            efabless/openlane:v1.0.0 \
-            bash -c "./flow.tcl -design my_design -config_file designs/my_design/openlane/config.json"
+            efabless/openlane:current \
+            bash -c "./flow.tcl -design my_design -config_file /openlane/designs/my_design/openlane/config.json"
 
       - name: Upload GDSII Artifacts
         uses: actions/upload-artifact@v4
