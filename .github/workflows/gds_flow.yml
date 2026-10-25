@@ -3,7 +3,7 @@ name: RTL to GDS Flow
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: # Cho phép nhấn nút bấm chạy thủ công từ giao diện Actions
+  workflow_dispatch:
 
 jobs:
   build-gds:
@@ -13,13 +13,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Run OpenLane Flow
-        uses: efabless/openlane-action@v1
-        with:
-          design_dir: './openlane'
-          config_file: 'config.json'
+      - name: Run OpenLane via Docker
+        run: |
+          docker run --rm \
+            -v $(pwd):/openlane/designs/my_design \
+            -e PDK_ROOT=/openlane/pdks \
+            efabless/openlane:v1.0.0 \
+            bash -c "./flow.tcl -design my_design -config_file designs/my_design/openlane/config.json"
 
-      - name: Upload GDSII and Layout Artifacts
+      - name: Upload GDSII Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: gds-output
