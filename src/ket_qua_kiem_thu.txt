@@ -1,0 +1,15 @@
+==================================================================================
+             BAO CAO KET QUA KIEM THU BO NHAN MANG A05 4x4 (VERILOG)
+==================================================================================
+  TC Name  |  a  |  b  |  DUT Output (Dec/Hex)  |  REF Output (Dec/Hex)  | Status
+----------------------------------------------------------------------------------
+
+[PHA 1] 5 ca bat buoc cua Charter muc 8
+  TC-001   |   0 |   0 |     0 (0x00)  |     0 (0x00)  | PASS
+  TC-002   |  15 |  15 |   225 (0xe1)  |   225 (0xe1)  | PASS
+  TC-003   |   1 |  15 |    15 (0x0f)  |    15 (0x0f)  | PASS
+  TC-004   |   8 |   8 |    64 (0x40)  |    64 (0x40)  | PASS
+  TC-005   |   7 |   9 |    63 (0x3f)  |    63 (0x3f)  | PASS
+
+[PHA 2] 7 ca tu xay dung (Charter doi >= 2, co ca bien)
+ERROR     TC-006 a=15 b=1 DUT=31 (0x1f) REF=15 (0x0f)

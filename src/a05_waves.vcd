@@ -1,0 +1,556 @@
+$date
+	Thu Oct 22 06:43:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module a05_tb $end
+$var wire 8 ! p_ref [7:0] $end
+$var wire 8 " p_dut [7:0] $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var integer 32 % i [31:0] $end
+$var integer 32 & ia [31:0] $end
+$var integer 32 ' ib [31:0] $end
+$var integer 32 ( j [31:0] $end
+$var integer 32 ) n_inv [31:0] $end
+$var integer 32 * n_mismatch [31:0] $end
+$var integer 32 + n_named [31:0] $end
+$var integer 32 , n_run [31:0] $end
+$var integer 32 - pp_sum [31:0] $end
+$scope module dut $end
+$var wire 4 . a [3:0] $end
+$var wire 4 / b [3:0] $end
+$var wire 4 0 y1 [3:0] $end
+$var wire 4 1 y2 [3:0] $end
+$var wire 4 2 y3 [3:0] $end
+$var wire 4 3 x3 [3:0] $end
+$var wire 4 4 x2 [3:0] $end
+$var wire 4 5 x1 [3:0] $end
+$var wire 4 6 s3 [3:0] $end
+$var wire 4 7 s2 [3:0] $end
+$var wire 4 8 s1 [3:0] $end
+$var wire 4 9 pp3 [3:0] $end
+$var wire 4 : pp2 [3:0] $end
+$var wire 4 ; pp1 [3:0] $end
+$var wire 4 < pp0 [3:0] $end
+$var wire 8 = p [7:0] $end
+$var wire 5 > k3 [4:0] $end
+$var wire 5 ? k2 [4:0] $end
+$var wire 5 @ k1 [4:0] $end
+$scope begin GEN_PP[0] $end
+$var parameter 2 A j $end
+$upscope $end
+$scope begin GEN_PP[1] $end
+$var parameter 2 B j $end
+$upscope $end
+$scope begin GEN_PP[2] $end
+$var parameter 3 C j $end
+$upscope $end
+$scope begin GEN_PP[3] $end
+$var parameter 3 D j $end
+$upscope $end
+$scope begin GEN_ROW1[0] $end
+$var parameter 2 E k $end
+$upscope $end
+$scope begin GEN_ROW1[1] $end
+$var parameter 2 F k $end
+$upscope $end
+$scope begin GEN_ROW1[2] $end
+$var parameter 3 G k $end
+$upscope $end
+$scope begin GEN_ROW1[3] $end
+$var parameter 3 H k $end
+$upscope $end
+$scope begin GEN_ROW2[0] $end
+$var parameter 2 I k $end
+$upscope $end
+$scope begin GEN_ROW2[1] $end
+$var parameter 2 J k $end
+$upscope $end
+$scope begin GEN_ROW2[2] $end
+$var parameter 3 K k $end
+$upscope $end
+$scope begin GEN_ROW2[3] $end
+$var parameter 3 L k $end
+$upscope $end
+$scope begin GEN_ROW3[0] $end
+$var parameter 2 M k $end
+$upscope $end
+$scope begin GEN_ROW3[1] $end
+$var parameter 2 N k $end
+$upscope $end
+$scope begin GEN_ROW3[2] $end
+$var parameter 3 O k $end
+$upscope $end
+$scope begin GEN_ROW3[3] $end
+$var parameter 3 P k $end
+$upscope $end
+$upscope $end
+$scope module ref_i $end
+$var wire 4 Q a [3:0] $end
+$var wire 4 R b [3:0] $end
+$var wire 8 S p [7:0] $end
+$upscope $end
+$scope task check_vector $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 P
+b10 O
+b1 N
+b0 M
+b11 L
+b10 K
+b1 J
+b0 I
+b11 H
+b10 G
+b1 F
+b0 E
+b11 D
+b10 C
+b1 B
+b0 A
+$end
+#0
+$dumpvars
+b0 S
+b0 R
+b0 Q
+b0 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+bx -
+b0 ,
+b0 +
+b0 *
+b0 )
+bx (
+bx '
+bx &
+bx %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#1000
+b11110 ?
+b11110 >
+b11110 @
+b1011 4
+b1101 3
+b110 8
+b1010 7
+b1100 6
+b11100001 "
+b11100001 =
+b111 5
+b1111 <
+b1111 0
+b1111 ;
+b1111 1
+b1111 :
+b1111 2
+b1111 9
+b11100001 !
+b11100001 S
+b1111 $
+b1111 /
+b1111 R
+b1111 #
+b1111 .
+b1111 Q
+b1 +
+b100 (
+b100 %
+b0 -
+b1 ,
+#2000
+b0 4
+b0 3
+b1111 "
+b1111 =
+b0 >
+b0 ?
+b1 8
+b0 @
+b1 7
+b1 6
+b0 5
+b1 <
+b1 0
+b1 ;
+b1 1
+b1 :
+b1 2
+b1 9
+b1111 !
+b1111 S
+b1 #
+b1 .
+b1 Q
+b10 +
+b11100001 -
+b100 (
+b100 %
+b10 ,
+#3000
+b0 8
+b0 7
+b1000 6
+b1000000 "
+b1000000 =
+b0 <
+b0 0
+b0 ;
+b0 1
+b0 :
+b1000 2
+b1000 9
+b1000 $
+b1000 /
+b1000 R
+b1000000 !
+b1000000 S
+b1000 #
+b1000 .
+b1000 Q
+b11 +
+b100 (
+b100 %
+b1111 -
+b11 ,
+#4000
+b1 7
+b1 4
+b11 8
+b111 6
+b111111 "
+b111111 =
+b11 5
+b111 <
+b111 2
+b111 9
+b1001 $
+b1001 /
+b1001 R
+b111111 !
+b111111 S
+b111 #
+b111 .
+b111 Q
+b100 +
+b100 (
+b100 %
+b1000000 -
+b100 ,
+#5000
+b1 3
+b11 7
+b11 4
+b1111 "
+b1111 =
+b111 8
+b1 6
+b111 5
+b0 2
+b0 9
+b1111 <
+b1 $
+b1 /
+b1 R
+b1111 !
+b1111 S
+b1111 #
+b1111 .
+b1111 Q
+b101 +
+b100 (
+b100 %
+b111111 -
+b101 ,
+#6000
+b11000 >
+b11100 ?
+b11100 @
+b1010 4
+b1100 3
+b101 8
+b1000 7
+b1010 6
+b11010010 "
+b11010010 =
+b1110 0
+b1110 ;
+b1110 1
+b1110 :
+b1110 2
+b1110 9
+b1110 <
+b1111 $
+b1111 /
+b1111 R
+b11010010 !
+b11010010 S
+b1110 #
+b1110 .
+b1110 Q
+b110 +
+b100 (
+b100 %
+b1111 -
+b110 ,
+#7000
+b0 @
+b100 4
+b10 3
+b10000 "
+b10000 =
+b0 >
+b1000 8
+b100 7
+b0 ?
+b10 6
+b0 5
+b0 <
+b1000 0
+b1000 ;
+b0 1
+b0 :
+b0 2
+b0 9
+b10 $
+b10 /
+b10 R
+b10000 !
+b10000 S
+b1000 #
+b1000 .
+b1000 Q
+b111 +
+b100 (
+b100 %
+b11010010 -
+b111 ,
+#8000
+b10 >
+b1 3
+b10 7
+b110010 "
+b110010 =
+b10 4
+b110 6
+b101 8
+b101 2
+b101 9
+b101 0
+b101 ;
+b1010 $
+b1010 /
+b1010 R
+b110010 !
+b110010 S
+b101 #
+b101 .
+b101 Q
+b1000 +
+b100 (
+b100 %
+b10000 -
+b1000 ,
+#9000
+b0 >
+b1 3
+b0 ?
+b0 4
+b11 7
+b1 8
+b1 6
+b1111 "
+b1111 =
+b1 5
+b11 <
+b11 1
+b11 :
+b0 0
+b0 ;
+b0 2
+b0 9
+b101 $
+b101 /
+b101 R
+b1111 !
+b1111 S
+b11 #
+b11 .
+b11 Q
+b1001 +
+b100 (
+b100 %
+b110010 -
+b1001 ,
+#10000
+b11110 ?
+b11 4
+b11110 >
+b111 8
+b1001 3
+b11000011 "
+b11000011 =
+b10 7
+b1000 6
+b111 5
+b1111 <
+b1111 1
+b1111 :
+b1111 2
+b1111 9
+b1101 $
+b1101 /
+b1101 R
+b11000011 !
+b11000011 S
+b1111 #
+b1111 .
+b1111 Q
+b1010 +
+b100 (
+b100 %
+b1111 -
+b1010 ,
+#11000
+b11110 @
+b1000 4
+b1001 3
+b10100101 "
+b10100101 =
+b0 8
+b11 7
+b10000 ?
+b100 6
+b10110 >
+b101 5
+b1011 0
+b1011 ;
+b1011 <
+b1011 1
+b1011 :
+b1011 2
+b1011 9
+b1111 $
+b1111 /
+b1111 R
+b10100101 !
+b10100101 S
+b1011 #
+b1011 .
+b1011 Q
+b1011 +
+b100 (
+b100 %
+b11000011 -
+b1011 ,
+#12000
+$dumpoff
+bx S
+bx R
+bx Q
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+b1100 +
+b100 (
+b100 %
+b10100101 -
+b1100 ,
+#268000
+$dumpon
+b11100001 S
+b1111 R
+b1111 Q
+b11110 @
+b11110 ?
+b11110 >
+b11100001 =
+b1111 <
+b1111 ;
+b1111 :
+b1111 9
+b110 8
+b1010 7
+b1100 6
+b111 5
+b1011 4
+b1101 3
+b1111 2
+b1111 1
+b1111 0
+b1111 /
+b1111 .
+b11100001 -
+b100001100 ,
+b1100 +
+b0 *
+b0 )
+b100 (
+b10000 '
+b10000 &
+b100 %
+b1111 $
+b1111 #
+b11100001 "
+b11100001 !
+$end
