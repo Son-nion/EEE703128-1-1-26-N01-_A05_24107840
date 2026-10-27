@@ -1,0 +1,24 @@
+%Warning-EOFNEWLINE: /openlane/designs/A05/src/A05_array_mult4x4.v:61:10: Missing newline at end of file (POSIX 3.206).
+                                                                        : ... Suggest add newline.
+   61 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-UNOPTFLAT: /openlane/designs/A05/src/A05_array_mult4x4.v:20:16: Signal unoptimizable: Circular combinational logic: 'A05_array_mult4x4.k3'
+   20 |     wire [4:0] k3;
+      |                ^~
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:20:16:      Example path: A05_array_mult4x4.k3
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:46:20:      Example path: ASSIGNW
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:20:16:      Example path: A05_array_mult4x4.k3
+%Warning-UNOPTFLAT: /openlane/designs/A05/src/A05_array_mult4x4.v:18:16: Signal unoptimizable: Circular combinational logic: 'A05_array_mult4x4.k2'
+   18 |     wire [4:0] k2;
+      |                ^~
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:18:16:      Example path: A05_array_mult4x4.k2
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:35:20:      Example path: ASSIGNW
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:18:16:      Example path: A05_array_mult4x4.k2
+%Warning-UNOPTFLAT: /openlane/designs/A05/src/A05_array_mult4x4.v:16:16: Signal unoptimizable: Circular combinational logic: 'A05_array_mult4x4.k1'
+   16 |     wire [4:0] k1;
+      |                ^~
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:16:16:      Example path: A05_array_mult4x4.k1
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:24:20:      Example path: ASSIGNW
+                    /openlane/designs/A05/src/A05_array_mult4x4.v:16:16:      Example path: A05_array_mult4x4.k1

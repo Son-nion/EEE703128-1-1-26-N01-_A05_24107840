@@ -1,0 +1,5 @@
+Warning: /openlane/designs/A05_array_mult4x4/runs/RUN_2026.10.25_15.49.59/results/routing/A05_array_mult4x4.nl.v line 327, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_26.
+Warning: /openlane/designs/A05_array_mult4x4/runs/RUN_2026.10.25_15.49.59/results/routing/A05_array_mult4x4.nl.v line 375, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_0_16.
+Warning: /openlane/designs/A05_array_mult4x4/runs/RUN_2026.10.25_15.49.59/results/routing/A05_array_mult4x4.nl.v line 383, module sky130_ef_sc_hd__decap_12 not found. Creating black box for FILLER_0_0_57.
+Warning: /openlane/designs/A05_array_mult4x4/runs/RUN_2026.10.25_15.49.59/results/routing/A05_array_mult4x4.nl.v line 388, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_1_75.
+[WARNING] Did not save OpenROAD database!

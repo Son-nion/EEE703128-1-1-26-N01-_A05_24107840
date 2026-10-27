@@ -1,0 +1,19 @@
+Design Name: A05_array_mult4x4
+Run Directory: /openlane/designs/A05/runs/RUN_2026.10.21_12.29.47
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/A05/runs/RUN_2026.10.21_12.29.47/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/A05/runs/RUN_2026.10.21_12.29.47/logs/signoff/37-A05_array_mult4x4.lef.lvs.log
+Number of nets: 86                         |Number of nets: 86                         
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/A05/runs/RUN_2026.10.21_12.29.47/logs/signoff/39-arc.log
+Pin violations: 0
+Net violations: 0

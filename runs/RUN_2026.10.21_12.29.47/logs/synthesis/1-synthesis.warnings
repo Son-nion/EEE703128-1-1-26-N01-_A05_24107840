@@ -1,0 +1,10 @@
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire A05_array_mult4x4.\p [7] is used but has no driver.
+Warning: Wire A05_array_mult4x4.\p [6] is used but has no driver.
+Warning: Wire A05_array_mult4x4.\p [5] is used but has no driver.
+Warning: Wire A05_array_mult4x4.\p [4] is used but has no driver.
+Warning: Wire A05_array_mult4x4.\p [3] is used but has no driver.
+Warning: Wire A05_array_mult4x4.\p [2] is used but has no driver.
+Warning: Wire A05_array_mult4x4.\p [1] is used but has no driver.
+Warning: Wire A05_array_mult4x4.\p [0] is used but has no driver.
+Warnings: 8 unique messages, 8 total
