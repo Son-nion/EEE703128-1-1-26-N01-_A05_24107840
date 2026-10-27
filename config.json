@@ -1,0 +1,20 @@
+{
+  "DESIGN_NAME": "A05_array_mult4x4",
+  "VERILOG_FILES": [
+    "dir::src/A05_array_mult4x4.v"
+  ],
+  "PNR_SDC_FILE": "dir::constraints/design.sdc",
+  "SIGNOFF_SDC_FILE": "dir::constraints/design.sdc",
+  "CLOCK_PORT": null,
+  "CLOCK_PERIOD": 10.0,
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "FP_SIZING": "relative",
+  "FP_CORE_UTIL": 40,
+  "PL_TARGET_DENSITY_PCT": 45,
+  "RUN_CTS": false,
+  "RUN_LINTER": false,
+  "RUN_KLAYOUT_DRC": true,
+  "RUN_MAGIC_DRC": true,
+  "RUN_LVS": true
+}
